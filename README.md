@@ -68,30 +68,37 @@ In order to add any of the objects, make a right click on the corresponding labe
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
+<img width="1242" height="695" alt="2" src="https://github.com/user-attachments/assets/9aed7cb9-da5e-4367-8ef3-a551bcce1bc0" />
 
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/f9304f68-d8bd-45ed-b510-2a7cb0c547e0" />
 
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/1053fd22-2366-4c1e-afc4-5075d3757b3a" />
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/9d19c7e8-3261-4dbf-8964-62964cf00281" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/e98b8687-9e52-45b1-9bb8-da2e6d94e7fc" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/4ea76865-b080-4410-991d-e00f9d5c9663" />
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/b8f5c600-9bd5-417d-aea6-00571f031973" />
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -101,11 +108,12 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • After saving the script, go back to Import Design window and Click “OK” to load your design.
 
-<img width="829" height="504" alt="image" src="https://github.com/user-attachments/assets/9daa96ae-ee07-42a3-804a-58f68763fd55" />
+<img width="1240" height="694" alt="3456789" src="https://github.com/user-attachments/assets/1febc7e4-085f-454e-9224-48179cc0dbfc" />
 
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+<img width="1240" height="701" alt="10" src="https://github.com/user-attachments/assets/46ee43cd-f2fd-4ddf-885c-15fe720fea7d" />
 
 ### Fig.8 Core area
 
@@ -126,6 +134,8 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="1241" height="702" alt="11" src="https://github.com/user-attachments/assets/2fcc0094-0fc3-4e70-9c34-29c07ffbee01" />
+
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,6 +180,7 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+<img width="1240" height="697" alt="12" src="https://github.com/user-attachments/assets/7d30781b-e20d-4e13-bcc3-9fb54f2ec8c7" />
 
 ### Fig.10 Power plan 
 
@@ -182,10 +193,13 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+<img width="1244" height="694" alt="13" src="https://github.com/user-attachments/assets/e4cce00a-c17c-4d1c-9e17-25840e178c6b" />
 
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+<img width="1241" height="696" alt="14" src="https://github.com/user-attachments/assets/38ed8330-8c0a-438e-a44f-4755855a91f4" />
+
 
 ## Result
 
